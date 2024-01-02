@@ -10,12 +10,20 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #800000;
+}
+
+.bg-color-hire-me {
+    background-color: #a0522d;
+}
+
 .bg-color-about-me-summary {
     background-color: #fff;
 }
 
 .ui-menu-color-home {
-    background-color: #800000;
+    background-color: #778899;
 }
 
 .ui-menu-color-education {
@@ -53,29 +61,8 @@ h4 {
     color: #fafafa;
 }
 
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.summary-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300px;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
-.about-me {
-    text-align: center;
-    padding: 20px;
-    float: right;
+.row {
     display: block;
-
 }
 
 /*------------------------------------------Header*/
@@ -226,4 +213,72 @@ heading {
 
 #footer-details {
     padding: 20px;
+}
+
+/*------------------------------------------About Me*/
+
+.summary-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.about-me {
+    text-align: center;
+    font-size: 26px;
+    padding: 10px;
+    float: right;
+    display: block;
+}
+
+.about-me-icon {
+    font-size: 26px;
+    color: #800000;
+}
+
+.hire-me {
+    width: 30%;
+    min-height: 80px;
+    display: block;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 25px;
+    text-align: center;
+    color: #fff;
+}
+
+/*------------------------------------------Personal Info*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item. value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    width: 60%;
+    position: relative;
 }
